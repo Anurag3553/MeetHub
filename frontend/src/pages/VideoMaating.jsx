@@ -23,9 +23,10 @@ import SendIcon from '@mui/icons-material/Send';
 import withAuth from '../utils/withAuth';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
+import server from '../environment';
 import '../App.css';
 
-const server_url = "http://localhost:8000";
+const server_url = server;
 
 var connections = {};
 
