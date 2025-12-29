@@ -1,0 +1,534 @@
+.landingpagecontainer{
+  height: 100vh;
+  width: 100vm;
+  background: url("/public/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 20px 20px;
+}
+
+.landingpagecontainer nav{
+  height: 10%;
+  width: 100%;
+  padding-inline: 2rem;
+  padding-block: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.landingpagecontainer nav .navheader{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.landingpagecontainer nav .navheader h2{
+  font-size: 1.8rem;
+  font-weight: 500
+}
+.landingpagecontainer nav .navheader span{
+  color: orange;
+}
+
+
+.landingpagecontainer nav .navbar{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.landingpagecontainer nav .navbar button{
+  height: 45px;
+  width: 120px;
+  background-color: rgb(37, 96, 223);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.landingpagecontainer nav .navbar button:hover{
+  border: 2px solid rgb(37, 96, 223);
+  background-color: rgb(37, 96, 223, 0.7);
+}
+.landingpagecontainer .landingmaincontainer{
+  height: 90%;
+  width: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+}
+
+
+
+.landingmaincontainer .one , .two{
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 30px;
+}
+
+.landingmaincontainer .one .mid{
+  height: 50%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+
+  /* justify-content: space-evenly; */
+}
+
+.landingmaincontainer .one .mid h1{
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.landingmaincontainer .one .mid p{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.landingmaincontainer .one .mid button{
+  height: 50px;
+  width: 150px;
+  background-color: orange;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+  
+}
+
+.landingmaincontainer .one .mid button:hover{
+  border: 2px solid orange;
+  background-color: rgb(255, 165, 0, 0.7);
+
+}
+
+.landingmaincontainer .two .logoimg{
+  height: 70%;
+  width: 90%;
+  border: 0.1px solid white;
+  border-radius: 5px;
+  background-color: rgb(0, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registrationcontainer{
+  height: 100vh;
+  width: 100vm;
+  /* background: url("/public/signupbackg.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-color: white;
+  display: flex;
+}
+
+.registrationcontainer .signuform{
+  height: 100%;
+  width: 60%;
+  background: url("/public/signuppage.png");
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.registrationcontainer .signuformm{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.signuformm .logotag{
+  height: 10%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.signuformm .lockicon{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(30, 92, 235);
+}
+
+.signuformm .form{
+  height: 70%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signuformm .form .signin{
+  height: 20%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.signuformm .form .data{
+  height: 40%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.signuformm .form .btnnnn{
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 40px;
+}
+
+
+.videmeetcontainer{
+  height: 100vh;
+  width: 100vm;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.videmeetcontainer .navabar-video{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.videmeetcontainer .navabar-video .logo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.videmeetcontainer .navabar-video .profile{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 15px black;
+}
+
+.videmeetcontainer .greeet {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videmeetcontainer .screenvideo{
+  height: 80%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+
+
+}
+
+.videmeetcontainer .screenvideo .videodemo{
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.videmeetcontainer .screenvideo .videodemo video{
+  height: 60%;
+  border: 5px solid rgb(11, 96, 233);
+  padding: 5px 5px;
+  border-radius: 20px;
+}
+
+.videmeetcontainer .screenvideo .nameinit{
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.meetvideocontainer{
+  height: 100vh;
+  width: 100vm;
+  display: flex;
+  background-color: rgb(9, 2, 56);
+  padding: 20px 20px;
+}
+.meetvideocontainer .leftvideobox{
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+}
+
+.meetvideocontainer .leftvideobox .videodemo{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.meetvideocontainer .leftvideobox .videodemo video{
+  height: 100%;
+  border: 5px solid rgb(11, 96, 233);
+  padding: 5px 5px;
+  border-radius: 20px;
+}
+
+.meetvideocontainer .leftvideobox .uservideos{
+  height: 40%;
+  width: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+  
+  flex-wrap: wrap;
+  
+  padding: 10px 10px;
+  object-fit: cover;
+  gap: 10px;
+  
+}
+
+.meetvideocontainer .leftvideobox .uservideos video{
+  height: 200px;
+  border: 5px solid rgb(233, 166, 11);
+  padding: 5px 5px;
+  border-radius: 20px;
+}
+
+.meetvideocontainer .leftvideobox .controlebar{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meetvideocontainer .leftvideobox .iconsbars{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  /* border: 1px solid white; */
+  /* background-color: rgb(255, 255, 255, 0.2); */
+  border-radius: 50px;
+}
+
+.iconsbars .icnbtnd{
+  height: 80%;
+  width: 120px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.iconsbars .icnbtnd:hover{
+  border: 1px silver solid;
+
+}
+.iconsbars svg{
+  font-size: 2.5rem;
+  
+}
+
+.homecontainer{
+  height: 100vh;
+  width: 100vm;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px ;
+  background-color: white;
+}
+
+.homecontainer nav{
+  height: 10%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.homecontainer nav .logo{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.homecontainer nav .profile{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.homecontainer .mainhomecontaint{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.homecontainer .mainhomecontaint .homeleft{
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homecontainer .mainhomecontaint .homeleft .homeone{
+  height: 30%;
+  width: 80%;
+  /* border: 1px  solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.homecontainer .mainhomecontaint .homeleft .hometwo{
+  height: 15%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.homecontainer .mainhomecontaint .homeright{
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.chatboxpage{
+  height: 90%;
+  width: 30%;
+  background-color: white;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatboxpage .chatheader{
+  height: 7%;
+  width: 100%;
+  padding: 20px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(245, 222, 179 );
+  display: flex;
+  align-items: center;
+}
+.chatboxpage .chatbox{
+  height: 82%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.chatboxpage .chatbox .sendername{
+  height: 25px;
+  width: 20%;
+  /* border: 1px solid black; */
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  background-color: rgb(128, 128, 128,0.2);
+  margin-bottom: 8px;
+}
+
+.chatboxpage .chatbox .chatsender{
+  border-radius: 50px;
+  background-color: rgb(11, 96, 233, 0.2);
+  padding: 15px 15px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.chatboxpage .chaysendbox{
+  height: 11%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+
